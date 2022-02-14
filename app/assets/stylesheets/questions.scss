@@ -1,3 +1,26 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+  background: rgb(77, 77, 77); // Using this variable
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: medium;
+  h1 {
+    font-size: 50px;
+    color: white;
+  }
+  h5 {
+    font-size: 18px;
+    color: white;
+
+  }
+  :link {
+    color: white
+
+  }
+  :link:hover {
+    color: orange
+  }
+}
